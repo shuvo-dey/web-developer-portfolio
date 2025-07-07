@@ -16,6 +16,10 @@
 }
 
 /* Shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -25,6 +29,7 @@
 }
 
 
+  
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -36,6 +41,19 @@
     border-color: white;
 }
 
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+
+}
 
 /* Nav Styles */
 nav{
@@ -70,7 +88,7 @@ nav li a{
 
 .banner{
     display: flex;
-    margin: 0 25px 0 200px;
+    margin: 0 35px 0 200px;
     justify-content: space-between;
 }
 
@@ -92,4 +110,55 @@ nav li a{
 
 .banner-profile-picture{
     width: 580px;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* section-title */
+ .section-title{
+    margin-top: 0;
+ }
+
+
+/* about style */
+
+.about{
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 150px;
+    margin-top: 130px;
+
+
+}
+
+.about-main{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 1px;
+    max-width: 827px;
+    gap: 30px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+   
+}
+
+.item-title{
+    margin-bottom: 0;
+}
+
+.item-descriptions{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.item-descriptions{
+    font-weight: 800;
+    font-size: 20px;
 }
